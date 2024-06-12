@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Add this CSS to your global stylesheet (e.g., globals.css) */
+.mask-image {
+    -webkit-mask-image: linear-gradient(to left, transparent, black 50%);
+    mask-image: linear-gradient(to left, transparent, black 50%);
+}
